@@ -29,7 +29,7 @@ LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan
 - Database MySQL/PostgreSQL/SQLite
 - Node.js dan npm/yarn
 
-## Instalasi 🌐
+## Panduan Instalasi 🌐
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini secara lokal:
 
@@ -69,7 +69,7 @@ php artisan serve
 ```
 8. Akses aplikasi di browsermu melalui `http://localhost:8000`.
 
-## Kontribusi 🙌
+## Berkontribusi 🙌
 Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan, jika diantara kalian ada yang ingin berkontribusi bisa melakukannya dengan:
 - Fork repository ini
 - Buat branch baru (git checkout -b feature/NamaUpdate)
