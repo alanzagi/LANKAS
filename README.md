@@ -1,8 +1,8 @@
-# LANKAS - Aplikasi Pengelolaan Uang Kas Kelas v1.0.0
+# LANKAS - Aplikasi Pengelolaan Uang Kas Kelas
 
 LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan menggunakan Laravel. Aplikasi ini dirancang untuk membantu pengguna dalam mencatat, mengelola, dan memantau pendapatan serta pengeluaran kas, terkhususnya dalam lingkungan satu kelas.
 
-## Fitur Utama
+## Fitur Lengkap
 
 - Login Bendahara
 - Manajemen Profile Bendahara
@@ -80,7 +80,7 @@ Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan
 ## Dukung Saya
 Jika kalian terbantu dengan project ini dan ingin memberikan tip sebagai apresiasi, bisa melalui cara di bawah:
 - Berikan ⭐ ke Repository Github ini https://github.com/alanzagi/LANKAS
-- atau melalui Trakteer https://trakteer.id/alan_zagi (mulai dari Rp10.000)
+- atau melalui Trakteer https://trakteer.id/alan_zagi (mulai dari Rp10.000)  
 Terima kasih sudah mendukung project yang saya kerjakan.
 
 ## Kerja Sama
