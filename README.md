@@ -79,7 +79,7 @@ Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan
 
 ## Dukung Saya
 Jika kalian terbantu dengan project ini dan ingin memberikan tip sebagai apresiasi, bisa melalui cara di bawah:
-- Berikan ⭐ ke Repository Github ini github.com/alanzagi/LANKAS
+- Berikan ⭐ ke Repository Github ini https://github.com/alanzagi/LANKAS
 - atau melalui Trakteer https://trakteer.id/alan_zagi (mulai dari Rp10.000)
 Terima kasih sudah mendukung project yang saya kerjakan.
 
