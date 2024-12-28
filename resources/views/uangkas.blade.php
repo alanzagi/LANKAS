@@ -11,7 +11,10 @@
                                 <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
                             </svg>
                         </div>
-                        <span>Bulan</span>
+                        <span class="flex items-center space-x-1">
+                            <span>Bulan</span>
+                            <span class="hidden md:block">Pembayaran</span>
+                        </span>
                     </button>
                 </div>
 
@@ -63,7 +66,6 @@
                             </div>
                         @endforeach
                     </div>
-
                 </div>
             </div>
         </main>
