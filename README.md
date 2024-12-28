@@ -2,7 +2,7 @@
 
 LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan menggunakan Laravel. Aplikasi ini dirancang untuk membantu pengguna dalam mencatat, mengelola, dan memantau pendapatan serta pengeluaran kas, terkhususnya dalam lingkungan satu kelas.
 
-## Fitur Lengkap
+## Fitur Lengkap ✨
 
 - Login Bendahara
 - Manajemen Profile Bendahara
@@ -16,20 +16,20 @@ LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan
 - Monitoring Riwayat Uang Kas oleh Bendahara
 - Monitoring Riwayat Pengeluaran oleh Bendahara
 
-## Teknologi yang Digunakan
+## Teknologi yang Digunakan 🛠️
 
 - **Frontend**: TailwindCSS
 - **Backend**: Laravel (11)
 - **Database**: SQLite
 
-## Persyaratan Sistem
+## Persyaratan Sistem ⚙️
 
 - PHP >= 8.2
 - Composer
 - Database MySQL/PostgreSQL/SQLite
 - Node.js dan npm/yarn
 
-## Instalasi (Local Host)
+## Instalasi 🌐
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini secara lokal:
 
@@ -69,7 +69,7 @@ php artisan serve
 ```
 8. Akses aplikasi di browsermu melalui `http://localhost:8000`.
 
-## Kontribusi
+## Kontribusi 🙌
 Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan, jika diantara kalian ada yang ingin berkontribusi bisa melakukannya dengan:
 - Fork repository ini
 - Buat branch baru (git checkout -b feature/NamaUpdate)
@@ -77,12 +77,12 @@ Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan
 - Push ke branch (git push origin feature/NamaUpdate)
 - Buka `Pull Request`
 
-## Dukung Saya
+## Dukung Saya 🚀
 Jika kalian terbantu dengan project ini dan ingin memberikan tip sebagai apresiasi, bisa melalui cara di bawah:
 - Berikan ⭐ ke Repository Github ini https://github.com/alanzagi/LANKAS
 - atau melalui Trakteer https://trakteer.id/alan_zagi (mulai dari Rp10.000)  
-Terima kasih sudah mendukung project yang saya kerjakan.
+Terima kasih sudah mendukung project yang saya kerjakan. ❤️
 
-## Kerja Sama
+## Kerja Sama 🤝
 Jika kalian membutuhkan jasa seperti deployment, pembuatan, atau konsultasi seputar aplikasi/website  
 Dapat menghubungi lewat link berikut https://linktr.ee/alanzagi
