@@ -59,5 +59,5 @@ Route::middleware('auth')->group(function () {
 
   // Riwayat Uang Kas routes
   Route::get('/riwayat-uang-kas', [RiwayatUangKasController::class, 'showRiwayatUangKas'])->name('riwayatuangkas');
-  Route::get('/riwayat-uang-kas/filter', [RiwayatUangKasController::class, 'filterRiwayatUangKas'])->name('riwayatuangkas.filter')
+  Route::get('/riwayat-uang-kas/filter', [RiwayatUangKasController::class, 'filterRiwayatUangKas'])->name('riwayatuangkas.filter');
 });
