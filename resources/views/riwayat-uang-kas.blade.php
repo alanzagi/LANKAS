@@ -15,7 +15,6 @@
                                 <option value="20" {{ request('jumlah') == 20 ? 'selected' : '' }}>20</option>
                                 <option value="50" {{ request('jumlah') == 50 ? 'selected' : '' }}>50</option>
                             </select>
-                            <p class="text-sm">entries</p>
                         </div>
                         <div class="flex items-center space-x-2 mb-4">
                             <label for="search" class="text-sm font-medium text-gray-700">Cari:</label>

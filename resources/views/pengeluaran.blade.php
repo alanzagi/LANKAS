@@ -3,7 +3,7 @@
         <main class="bg-slate-100 h-screen pt-20 p-4 sm:ml-64 font-poppins">
             <div class="relative overflow-x-auto">
                 <div class="space-y-4">
-                    <div class="flex items-center justify-between">
+                    <div class="flex items-center justify-between space-x-4">
                         <h1 class="text-2xl">{{ $title }}</h1>
                         <button
                             class="tambah-btn flex items-center justify-center space-x-1 px-4 py-2 rounded bg-blue-500 text-white">
@@ -12,7 +12,7 @@
                                     <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
                                 </svg>
                             </div>
-                            <span>Tambah Pengeluaran</span>
+                            <span>Pengeluaran</span>
                         </button>
                     </div>
 
@@ -24,7 +24,6 @@
                                 <option value="20" {{ request('jumlah') == 20 ? 'selected' : '' }}>20</option>
                                 <option value="50" {{ request('jumlah') == 50 ? 'selected' : '' }}>50</option>
                             </select>
-                            <p class="text-sm">entries</p>
                         </div>
                         <div class="flex items-center space-x-2 mb-4">
                             <label for="search" class="text-sm font-medium text-gray-700">Cari:</label>

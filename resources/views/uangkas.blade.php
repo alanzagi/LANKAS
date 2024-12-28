@@ -11,7 +11,7 @@
                                 <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
                             </svg>
                         </div>
-                        <span>Tambah Bulan</span>
+                        <span>Bulan</span>
                     </button>
                 </div>
 
@@ -71,7 +71,7 @@
         <div class="hidden fixed inset-0 bg-gray-900 bg-opacity-50 items-center justify-center p-4" id="tambahBulanModal">
             <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md sm:w-1/3">
                 <div class="flex items-center justify-between pb-5">
-                    <h3 class="text-xl text-gray-900">Tambah Siswa</h3>
+                    <h3 class="text-xl text-gray-900">Tambah Bulan Pembayaran</h3>
                     <button type="button"
                         class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center close-modal-btn">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
