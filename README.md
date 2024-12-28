@@ -1,6 +1,6 @@
 # LANKAS - Aplikasi Pengelolaan Uang Kas Kelas
 
-LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan menggunakan Laravel. Aplikasi ini dirancang untuk membantu pengguna dalam mencatat, mengelola, dan memantau pendapatan serta pengeluaran kas, terkhususnya dalam lingkungan satu kelas.
+LANKAS adalah Aplikasi Pengelolaan Uang Kas Kelas Berbasis Web yang dikembangkan menggunakan Laravel. Aplikasi ini dirancang untuk membantu bendahara dalam mencatat, mengelola, dan memantau pendapatan serta pengeluaran kas, terkhususnya dalam lingkungan satu kelas.
 
 ## Fitur Lengkap ✨
 
