@@ -68,3 +68,21 @@ php artisan migrate --seed
 php artisan serve
 ```
 8. Akses aplikasi di browsermu melalui `http://localhost:8000`.
+
+## Kontribusi
+Aplikasi ini dikerjakan oleh perorangan dan mungkin saja masih banyak kekurangan, jika diantara kalian ada yang ingin berkontribusi bisa melakukannya dengan:
+- Fork repository ini
+- Buat branch baru (git checkout -b feature/NamaUpdate)
+- Commit hasil dari branchmu (git commit -m 'Menambahkan update baru berupa ....')
+- Push ke branch (git push origin feature/NamaUpdate)
+- Buka `Pull Request`
+
+## Dukung Saya
+Jika kalian terbantu dengan project ini dan ingin memberikan tip sebagai apresiasi, bisa melalui cara di bawah:
+- Berikan ⭐ ke Repository Github ini github.com/alanzagi/LANKAS
+- atau melalui Trakteer https://trakteer.id/alan_zagi (mulai dari Rp10.000)
+Terima kasih sudah mendukung project yang saya kerjakan.
+
+## Kerja Sama
+Jika kalian membutuhkan jasa seperti deployment, pembuatan, atau konsultasi seputar aplikasi/website  
+Dapat menghubungi lewat link berikut https://linktr.ee/alanzagi
