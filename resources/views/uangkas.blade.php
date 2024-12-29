@@ -1,6 +1,6 @@
 <x-layout :title="$title">
     @section('page')
-        <main class="bg-slate-100 pt-20 p-4 sm:ml-64 font-poppins">
+        <main class="bg-slate-100 pt-20 p-4 sm:ml-64 font-poppins min-h-screen">
             <div class="space-y-2">
                 <div class="flex items-center justify-between">
                     <h1 class="text-2xl">{{ $title }}</h1>

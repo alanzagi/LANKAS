@@ -3,21 +3,25 @@
         <main class="bg-slate-100 h-screen pt-20 p-4 sm:ml-64 font-poppins">
             <div class="relative overflow-x-auto">
                 <div class="space-y-4">
-                    <h1 class="text-2xl">{{ $title }} Pemasukan</h1>
-                    <form action="{{ route('laporan.print') }}" method="POST" class="">
+                    <form action="{{ route('laporan.print') }}" method="POST">
                         @csrf
-                        <div class="flex flex-col space-y-4 max-w-xs">
-                            <div>
-                                <label for="bulan">Pilih Bulan:</label>
-                                <select name="bulan" id="bulan" class="capitalize" required>
-                                    @foreach ($bulanPembayaran as $bulan)
-                                        <option value="{{ $bulan->id }}">{{ $bulan->nama_bulan }} | {{ $bulan->tahun }}
-                                        </option>
-                                    @endforeach
-                                </select>
+                        <div class="flex flex-col space-y-4 max-w-sm">
+                            <div
+                                class="flex flex-col space-y-4 border-2 border-blue-600 p-4 rounded-lg hover:border-blue-800">
+                                <h1 class="text-2xl">{{ $title }} Pemasukan</h1>
+                                <div class="flex items-center space-x-4">
+                                    <label for="bulan">Pilih Bulan:</label>
+                                    <select name="bulan" id="bulan" class="capitalize" required>
+                                        @foreach ($bulanPembayaran as $bulan)
+                                            <option value="{{ $bulan->id }}">{{ $bulan->nama_bulan }} |
+                                                {{ $bulan->tahun }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                </div>
                             </div>
-
-                            <div class="flex flex-col space-y-4">
+                            <div
+                                class="flex flex-col space-y-4 border-2 border-blue-600 p-4 rounded-lg hover:border-blue-800">
                                 <h1 class="text-2xl">{{ $title }} Pengeluaran</h1>
                                 <div>
                                     <label for="start_date">Dari Tanggal:</label>

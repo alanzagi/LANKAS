@@ -6,6 +6,7 @@ use App\Models\Pengeluaran;
 use App\Models\RiwayatPengeluaran;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
 
 class PengeluaranController extends Controller
 {
@@ -59,14 +60,14 @@ class PengeluaranController extends Controller
             'id_user' => Auth::id(), // Mendapatkan ID pengguna yang sedang login
             'jumlah_pengeluaran' => $request->jumlah_pengeluaran,
             'keterangan' => $request->keterangan,
-            'tanggal_pengeluaran' => now(), // Mengisi tanggal_pengeluaran dengan waktu saat ini
+            'tanggal_pengeluaran' => Carbon::now()->locale('id')->translatedFormat('d F Y'),
         ]);
 
         // Simpan riwayat ke tabel 'riwayat_pengeluaran'
         RiwayatPengeluaran::create([
             'id_user' => Auth::id(), // ID pengguna yang sama
             'aksi' => "Menambahkan pengeluaran: '{$request->keterangan}' dengan biaya Rp" . number_format($request->jumlah_pengeluaran, 0, ',', '.'),
-            'tanggal' => now(), // Waktu saat ini
+            'tanggal' => Carbon::now()->locale('id')->translatedFormat('d F Y'),
         ]);
 
         return response()->json(['success' => 'Pengeluaran berhasil ditambahkan']);

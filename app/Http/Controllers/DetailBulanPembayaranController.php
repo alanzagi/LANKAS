@@ -8,6 +8,7 @@ use App\Models\Siswa;
 use App\Models\RiwayatUangKas;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
 
 class DetailBulanPembayaranController extends Controller
 {
@@ -115,7 +116,7 @@ class DetailBulanPembayaranController extends Controller
             'id_user' => Auth::id(),
             'id_uang_kas' => $uangKas->id,
             'aksi' => "Mengubah pembayaran siswa {$siswa->nama_siswa} untuk {$request->minggu_ke} dari Rp. " . number_format($nilaiSebelum) . " menjadi Rp. " . number_format($request->nilai),
-            'tanggal' => now(),
+            'tanggal' => Carbon::now()->locale('id')->translatedFormat('d F Y'),
         ]);
 
         return response()->json(['success' => true]);

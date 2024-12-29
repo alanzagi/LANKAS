@@ -140,7 +140,7 @@
                     <span class="ms-3">Laporan</span>
                 </a>
             </li>
-            <li class="border-t border-gray-700">
+            <li class="border-t border-gray-700 pt-2">
                 <a href="{{ route('riwayatuangkas') }}"
                     class="flex items-center p-2 text-white rounded-lg group hover:bg-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#ffffff" class="w-5 h-5">
